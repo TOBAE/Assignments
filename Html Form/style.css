@@ -1,0 +1,124 @@
+/* html, body {
+  height: 100%;
+  width: 100%;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Poppins';
+    background-image: url(https://images.pexels.com/photos/2609107/pexels-photo-2609107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
+  
+  .form_section{
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    max-width: 450px;
+    margin: 0 auto 100px;
+    padding: 45px;
+  }
+  
+  .header{
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 450px;
+    color: #fff;
+    margin: 50px auto 0;
+  }
+  
+  .header h1{
+    padding-top: 15px;
+  }
+  
+  .header p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #43da86;
+  }
+  
+  .input_fields input:focus {
+    background-color: #43da86;
+  }
+  
+  .input_fields input{
+    display: block;
+    margin: 20px auto;
+    padding: 16px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: #43da86;
+    outline: none;
+  }
+  
+  ::placeholder{
+    padding-left: 10px;
+  }  
+  
+  
+  /* Option Section  */
+  .options{
+    display: flex;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .first_option, .second_option{
+    display: flex;
+  }
+  
+  .first_option label, .second_option label{
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .first_option select, .second_option input{
+    margin-left: 5px;
+    border-radius: 5px;
+    border-color: #43da86;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .second_option{
+    padding-left: 10px;
+  }  
+  
+  /*color section  */
+  
+  .color input{
+    margin-top: 10px;
+    height: 35px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+  }
+  
+  .color label{
+    font-size: 1.2rem;
+  }
+  
+  .button_{
+    margin: 15px 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .btn{
+    padding: 10px 35px;
+    border-radius: 10px;
+    border-color: #43da86;
+  }
+
+  .button_ p{
+    margin-top: 15px;
+  }
+  
+  p a, span{
+    color: #43da86;
+  }

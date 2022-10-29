@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin: 50px;
+    flex-direction: row;
+}
+
+.item{
+    padding: 30px;
+  font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.item1{
+    background: hsl(31, 77%, 52%);
+}
+
+.item2{
+    background: hsl(184, 100%, 22%);
+}
+
+.item3{
+    background: hsl(179, 100%, 13%);
+}
+
+.item-text h1{
+     margin-top: 15px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+}
+
+.item-text h4{
+    margin-top: 25px;
+    font-family: 'Lexend Deca';
+}
+
+.item-text .btn{
+    margin-top: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+}
+
+.grid-link{
+  margin: 10px 0 0 50px;
+  font-size: 1.5rem;
+}
+
+.grid-link a{
+  color: hsl(179, 100%, 13%); 
+}
+
+
+/* GRID STYLING */
+
+.grid-container{
+    display: grid;
+    padding-top: 100px;
+    gap: 5px;
+/*     grid-template-areas:
+    'a a b'
+    'c d d'
+    'c e e'; */
+    width: 50%;
+    margin: auto;
+}
+
+
+.grid-container div{
+    padding: 25px 50px;
+    text-align: center;
+}
+
+.grid-item1{
+    background-color: orangered;
+/*     grid-area: a; */
+}
+
+.grid-item2{
+    background: hsl(31, 77%, 52%);
+/*     grid-area: b; */
+}
+
+.grid-item3{
+    background-color: green;
+/*     grid-area: c; */
+}
+
+.grid-item4{
+    background-color: rgb(69, 187, 234);
+/*     grid-area: d; */
+}
+
+.grid-item5{
+    background-color: skyblue;
+/*     grid-area: e; */
+}
